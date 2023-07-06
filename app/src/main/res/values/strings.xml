@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AdityaGrowigh</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_screen_image">home</string>
+    <string name="welcome_string">Welcome Buddy</string>
+    <string name="feeds_button">Feeds</string>
+    <string name="upload_button">Upload</string>
+    <string name="skip_intro_string">Skip intro</string>
+    <string name="forward_arrow_string">next</string>
+    <string name="hello_string">Hello,</string>
+    <string name="buddy_string">Buddy</string>
+    <string name="search_hint_string">Search</string>
+    <string name="profile_photo_string">Profile Photo</string>
+    <string name="latest_string">Latest</string>
+    <string name="older_string">Older</string>
+    <string name="browse_by_string">Browse By</string>
+    <string name="upload_image_string">Upload Image</string>
+    <string name="select_image_string">Select Image</string>
+    <string name="back_string">back</string>
+    <string name="topic_string">Tech News</string>
+    <string name="page_name_string">The Verge</string>
+    <string name="demo_caption_string">This is a textview about the photo which is show below, it can be called a insta caption kinda thing</string>
+    <string name="api_image_string">API IMAGE</string>
+    <string name="view_all_comments_string">View All Comments</string>
+    <string name="likes_string">Like</string>
+    <string name="comment_string">Comment</string>
+    <string name="share_string">Share</string>
+</resources>
