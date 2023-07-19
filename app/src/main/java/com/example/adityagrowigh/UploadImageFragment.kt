@@ -1,6 +1,5 @@
 package com.example.adityagrowigh
 
-import android.app.Activity
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -48,7 +47,7 @@ class UploadImageFragment : Fragment() {
             openGallery()
         }
         backButton.setOnClickListener {
-            val i = Intent(activity, HomeActivity::class.java)
+            val i = Intent(activity, WelcomeActivity::class.java)
             startActivity(i)
             requireActivity().finish()
         }

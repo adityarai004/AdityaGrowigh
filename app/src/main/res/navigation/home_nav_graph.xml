@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav_graph.xml"
+    app:startDestination="@id/feedsFragment">
+
+    <fragment
+        android:id="@+id/feedsFragment"
+        android:name="com.example.adityagrowigh.FeedsFragment"
+        android:label="fragment_feeds"
+        tools:layout="@layout/fragment_feeds" >
+        <action
+            android:id="@+id/action_feedsFragment_to_videosFragment"
+            app:destination="@id/videosFragment" />
+        <action
+            android:id="@+id/action_feedsFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/videosFragment"
+        android:name="com.example.adityagrowigh.VideosFragment"
+        android:label="fragment_videos"
+        tools:layout="@layout/fragment_videos" >
+        <action
+            android:id="@+id/action_videosFragment_to_feedsFragment"
+            app:destination="@id/feedsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.adityagrowigh.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" >
+        <action
+            android:id="@+id/action_mapFragment_to_feedsFragment"
+            app:destination="@id/feedsFragment" />
+    </fragment>
+</navigation>

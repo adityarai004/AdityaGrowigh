@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/feedsFragment"
+        android:title="Home"
+        android:icon="@drawable/outline_home_24"/>
+
+    <item
+        android:id="@+id/videosFragment"
+        android:title="Videos"
+        android:icon="@drawable/outline_play_circle_24"/>
+
+    <item
+        android:id="@+id/mapFragment"
+        android:title="Map"
+        android:icon="@drawable/baseline_location_on_24"/>
+</menu>

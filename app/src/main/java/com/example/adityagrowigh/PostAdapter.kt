@@ -26,6 +26,18 @@ class PostAdapter(val mContext: Context, private val mList:List<PostItem>): Recy
         Glide.with(mContext).load(imgUrl).into(holder.imageIV)
         holder.likes.text = "${postItem.likes.toString() } Likes"
         holder.comments.text =  "${postItem.comments.toString()} Comments"
+        var flag = 0
+        holder.likes.setOnClickListener {
+            if(flag == 0){
+
+                holder.likes.text =  "${postItem.likes?.plus(1)} Likes"
+                flag = 1
+            }
+            else{
+                holder.likes.text =  "${postItem.likes} Likes"
+                flag = 0
+            }
+        }
     }
 
     class ViewHolder(ItemView: View) : RecyclerView.ViewHolder(ItemView) {

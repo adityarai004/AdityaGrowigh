@@ -6,8 +6,6 @@ import android.os.Bundle
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.cardview.widget.CardView
-import androidx.compose.ui.graphics.Color
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
 
@@ -33,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun navigateToHomeActivity(){
         markOnboardingCompleted()
-        startActivity(Intent(applicationContext,HomeActivity::class.java))
+        startActivity(Intent(applicationContext,WelcomeActivity::class.java))
         finish()
     }
     private fun setOnBoardingItems(){
