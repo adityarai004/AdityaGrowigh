@@ -86,14 +86,14 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintVertical_bias="1.0">
-            <ImageView
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:id="@+id/like_iv"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:src="@drawable/like_vector"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:lottie_rawRes="@raw/animation_lkc6gvmu"/>
 
             <TextView
                 android:id="@+id/like_tv"

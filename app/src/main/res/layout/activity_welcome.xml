@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/main_container"
     android:background="@color/white"
-    tools:context=".WelcomeActivity">
+    tools:context=".ui.WelcomeActivity">
 
     <LinearLayout
         android:layout_marginTop="100dp"

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/feedsFragment"
-        android:name="com.example.adityagrowigh.FeedsFragment"
+        android:name="com.example.adityagrowigh.ui.fragments.FeedsFragment"
         android:label="fragment_feeds"
         tools:layout="@layout/fragment_feeds" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/videosFragment"
-        android:name="com.example.adityagrowigh.VideosFragment"
+        android:name="com.example.adityagrowigh.ui.fragments.VideosFragment"
         android:label="fragment_videos"
         tools:layout="@layout/fragment_videos" >
         <action
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/mapFragment"
-        android:name="com.example.adityagrowigh.MapFragment"
+        android:name="com.example.adityagrowigh.ui.fragments.MapFragment"
         android:label="fragment_map"
         tools:layout="@layout/fragment_map" >
         <action
